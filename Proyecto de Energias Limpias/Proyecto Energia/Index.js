@@ -10,7 +10,7 @@ const cosumot = (calconsumo*100)/valorSolar
 
 
 const resultado = document.getElementById("resultado");
-resultado.innerHTML =`${cosumot.toFixed(2)}%    Consumo anual en (TW)`;
+resultado.innerHTML =`${cosumot.toFixed(2)}%  Consumo anual de energía renovable`;
 })
 /*fin calculadora*/
 //---------------------------------------------------------
